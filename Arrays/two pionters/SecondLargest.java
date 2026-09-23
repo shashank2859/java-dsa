@@ -1,4 +1,4 @@
-public class array_fundamentals {
+public class SecondLargest {
 
     static int secondLargest(int[] arr) {
 
