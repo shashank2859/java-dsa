@@ -22,7 +22,7 @@ public class FirstNonRepeating {
 
     public static void main(String[] args) {
 
-        String s = "aabbcdde";
+        String s = "acde";
 
         System.out.println(firstNonRepeating(s));
     }
