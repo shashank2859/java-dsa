@@ -20,7 +20,7 @@ public class Longest_substring {
 return maxlength;
 }
 public static void main(String[] args) {
-    String s="bbbbb";
+    String s="bbbbbas";
     System.out.println( lengthOfLongestSubstring(s));
 
 }
