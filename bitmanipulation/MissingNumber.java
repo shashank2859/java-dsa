@@ -1,4 +1,4 @@
-package bitmanipulation;
+
 
 public class MissingNumber {
    public static int missingNumber(int[] nums) {

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Level_order_traversal$Node",
+            "request": "launch",
+            "mainClass": "Level_order_traversal$Node",
+            "projectName": "Java_Practice_WorkspaceDSA_9f56de7e"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

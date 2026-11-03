@@ -33,7 +33,7 @@ public class longest_char_without_repeating {
     }
     public static void main(String[] args) {
         String s="AABBAAAA";
-        int k=2;
+        int k=1;
         System.out.println(characterReplacement(s,k));
     }
 }
