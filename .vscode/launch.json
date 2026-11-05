@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "iterative_preorder",
+            "request": "launch",
+            "mainClass": "iterative_preorder",
+            "projectName": "Java_Practice_WorkspaceDSA_9f56de7e"
+        },
+        {
+            "type": "java",
             "name": "Level_order_traversal$Node",
             "request": "launch",
             "mainClass": "Level_order_traversal$Node",
