@@ -1,7 +1,7 @@
 package BinarySearch;
 
 public class Search_rotates_sorted_arrayll {
-    public static int search(int[] arr, int target) {
+    public static boolean  search(int[] arr, int target) {
 
         int low = 0;
         int high = arr.length - 1;
@@ -10,7 +10,7 @@ public class Search_rotates_sorted_arrayll {
 
             int mid = low + (high - low) / 2;
             if(arr[mid]==target){
-                return mid;
+                return true;
             }
 
             if(arr[low]==arr[mid] && arr[mid]==arr[high]){
@@ -43,7 +43,7 @@ public class Search_rotates_sorted_arrayll {
             
             
         }
-            return -1;
+            return false;
         }
     public static void main(String[] args) {
      int arr[]={6,10,20,6,6,7,6};
