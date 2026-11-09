@@ -1,4 +1,4 @@
-package BinarySearch;
+
 
 public class Minimum_rotated_sorted_array {
     public static int findMin(int[] arr) {

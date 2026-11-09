@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Single_element",
+            "request": "launch",
+            "mainClass": "Single_element",
+            "projectName": "Java_Practice_WorkspaceDSA_9f56de7e"
+        },
+        {
+            "type": "java",
             "name": "iterative_preorder",
             "request": "launch",
             "mainClass": "iterative_preorder",
